@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: red url('roomimg.png')center center;
+    background-size: cover;
+
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.4);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.title{
+    margin-top: 2rem;
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+.col{
+    width: 1000px;
+    
+    color: #f3f3f3;
+    margin: 0px auto;
+    display: flex;
+
+
+}
+.col div{
+    width: 250px;
+    text-align: center;
+  
+
+}
+input{
+    
+    width: 50%;
+    height: 50px;
+    background-color: rgb(255, 255, 255,0.8);
+    text-align: center;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 5px;
+
+    
+
+}
